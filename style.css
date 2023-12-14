@@ -37,11 +37,34 @@ body
     {
         transform: rotate(90deg);
     }
+    nav .container-flex
+    {
+        display: flex;
+        justify-content: center;
+    }
+    .navbar
+    {
+        display:flex;
+        justify-content: center;
+    }
 }
 @media (max-width: 768px)
 {
     .symbol2
     {
         transform: rotate(180deg);
+    }
+}
+/*----------End of Navbar----------*/
+.aspectRatio
+{
+    aspect-ratio: 1.5;
+    background-size: cover;
+}
+@media (max-width: 992px)
+{
+    .section2 > div
+    {
+        padding-right: 25px;
     }
 }
