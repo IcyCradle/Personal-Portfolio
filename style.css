@@ -82,6 +82,13 @@ nav .container-flex
         padding-right: 25px;
     }
 }
+@media (max-width: 767px)
+{
+    .section1-item1
+    {
+        margin-bottom: 20px;
+    }
+}
 /*-----------Start of Footer-----------*/
 .footer-portrait
 {
@@ -113,38 +120,50 @@ footer .section3
 {
     border-bottom: 1px solid black;
 }
-.shake {
+.shake
+{
     animation: shake 2s linear 1s;
-  }
-  @keyframes shake {
-    5% {
-      transform: translateX(-10px);
+}
+@keyframes shake
+{
+    5%
+    {
+        transform: translateX(-10px);
     }
-    10% {
-      transform: translateX(10px);
+    10%
+    {
+        transform: translateX(10px);
     }
-    15% {
-      transform: translateX(-10px);
+    15%
+    {
+        transform: translateX(-10px);
     }
-    20% {
-      transform: translateX(10px);
+    20%
+    {
+        transform: translateX(10px);
     }
-    25% {
-      transform: translateX(-10px);
+    25%
+    {
+        transform: translateX(-10px);
     }
-    30% {
-      transform: translateX(10px);
+    30%
+    {
+        transform: translateX(10px);
     }
-    35% {
-      transform: translateX(-10px);
+    35%
+    {
+        transform: translateX(-10px);
     }
-    40% {
-      transform: translateX(10px);
+    40%
+    {
+        transform: translateX(10px);
     }
-    45% {
-      transform: translateX(-10px);
+    45%
+    {
+        transform: translateX(-10px);
     }
-    50% {
-      transform: translateX(0);
+    50%
+    {
+        transform: translateX(0);
     }
-  }
+}
