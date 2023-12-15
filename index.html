@@ -10,60 +10,103 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Raleway:wght@200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik+Doodle+Shadow&display=swap" rel="stylesheet">
 
     <title>My Portfolio</title>
 </head>
-<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0">
+<body data-bs-spy="scroll" data-bs-target="#navbar" data-bs-offset="0" class="content-background" style="background-image: url('img/content-bg.jpg');">
     <!--Nav-->
     <nav id="navbar" class="navbar navbar-expand-sm">
         <div class="container-flex">
-            <img class="navbar-symbols symbol1" src="img/dndDiceSymbol.jpg" alt="Navbar img figures">
+            <!--<img class="navbar-symbols symbol1" src="img/dndDiceSymbol.jpg" alt="Navbar img figures">-->
             <div id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item mx-3">
-                        <a class="nav-link text-white" href="#section1">About me</a>
+                        <a class="nav-link" href="#intro"><button class="btn btn-default rounded-pill text-white">About me</button></a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link text-white" href="#section2">Projects</a>
+                        <a class="nav-link" href="#projects"><button class="btn btn-default rounded-pill text-white">Projects</button></a>
                     </li>
                     <li class="nav-item mx-3">
-                        <a class="nav-link text-white" href="#section3">Contact me</a>
+                        <a class="nav-link" href="#footer"><button class="btn btn-default rounded-pill text-white">Contact me</button></a>
                     </li>
                 </ul>
             </div>
-            <img class="navbar-symbols symbol2" src="img/dndDiceSymbol.jpg" alt="Navbar img figures">
+            <!--<img class="navbar-symbols symbol2" src="img/dndDiceSymbol.jpg" alt="Navbar img figures">-->
         </div>
     </nav>
     <!--Section 1-->
-    <div class="container-flex" id="section1">
-        <div>About Me</div>
+    <div class="container-flex mt-5 shake" id="intro">
+        <div class="mx-5 rounded-3 section1">
+            <h2 class="section1-header text-align-center">Hello, Welcome to my Portfolio!</h2>
+            <div class="row mt-3">
+                <div class="col-2"></div>
+                <div class="col-3 rounded-3 section1-items">
+                    <h4>Let Me tell you about myself:</h4>
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                        <li>Item 4</li>
+                    </ul>
+                </div>
+                <div class="col-2"></div>
+                <div class="col-3 rounded-3 section1-items">
+                    <h4>Experiences:</h4>
+                    <ul>
+                        <li>Item 1</li>
+                        <li>Item 2</li>
+                        <li>Item 3</li>
+                        <li>Item 4</li>
+                    </ul>
+                </div>
+                <div class="col-2"></div>
+            </div>    
+        </div>
     </div>
     <!--Section 2-->
-    <div class="container-flex mx-5 section2 text-white" id="section2">
+    <div class="container-flex mx-5 section2 text-white mt-5" id="projects">
         <h3 class="text-align-center section2-title">Welcome: Take a moment to check out my projects.</h3>
-        <div class="row flex-nowrap overflow-auto">
-            <div class="col-11 col-md-5 rounded-3 bg-lightgray px-0 me-3 ps-3">
+        <div class="row">
+            <div class="col-12 col-lg-6 rounded-3 py-3 px-3">
                 <a href="https://dashing-sunshine-d216e9.netlify.app/" target="_blank">
                     <div class="aspectRatio rounded-top" style="background-image: url('img/Apple-Clone.png');"></div>
                 </a>
             </div>
-            <div class="col-11 col-md-5 rounded-3 bg-lightgray px-0 me-3 ps-3">
+            <div class="col-12 col-lg-6 rounded-3 py-3 px-3">
                 <a href="https://lucent-klepon-56e748.netlify.app" target="_blank">
                     <div class="aspectRatio rounded-top" style="background-image: url('img/Newsweek-Clone.png');"></div>
                 </a>
             </div>
-            <div class="col-11 col-md-5 rounded-3lightgray px-0 me-3 ps-3">
+            <div class="col-12 col-lg-6 rounded-3 py-3 px-3">
                 <a href="https://celebrated-donut-d2c4f9.netlify.app" target="_blank">
                     <div class="aspectRatio rounded-top" style="background-image: url('img/Airbnb-Clone.png');"></div>
+                </a>
+            </div>
+            <div class="col-12 col-lg-6 rounded-3 py-3 px-3">
+                <a href="#">
+                    <div class="aspectRatio rounded-top" style="background-image: url('https://placehold.co/600x400?text=Placeholder for future Projects!');"></div>
                 </a>
             </div>
         </div>
     </div>
     <!--Footer-->
-    <footer class="container" id="section3">
-        <div class="col-md-6"><img class="aspectRatio rounded-circle " src="img/yggdrasil.jpg" alt=""></div>
-        <div class="col-md-6"></div>
-        <div class="col-md-6"></div>
+    <footer class="container-flex mt-5" id="footer">
+        <div class="md-5 section3">
+            <div class="footer-items">
+                <img class="rounded-circle footer-portrait" src="img/yggdrasil.jpg" alt="Profile Picture">
+            </div>
+            <div class="footer-items social">
+                <a href="#"><i class="fa-solid fa-envelope"></i></a>
+                <a href="https://www.linkedin.com/in/khant-oo-26bb67299" target="_blank"><i class="fa-brands fa-linkedin"></i></a>
+                <a href="https://github.com/IcyCradle" target="_blank"><i class="fa-brands fa-github"></i></a><br>
+            </div>
+            <div class="footer-items">
+                <a class="school" href="https://www.altcademy.com" target="_blank">Part of Altcademy's Fullstack Program</a>
+            </div>
+        </div>
     </footer>
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4" crossorigin="anonymous"></script>
