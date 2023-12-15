@@ -61,6 +61,11 @@ body
     aspect-ratio: 1.5;
     background-size: cover;
 }
+.section2-title
+{
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Dancing Script', sans-serif;
+}
 @media (max-width: 992px)
 {
     .section2 > div
